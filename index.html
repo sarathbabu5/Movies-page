@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./output.css" />
+    <title>Movies App</title>
+  </head>
+  <body class="bg-gray-100">
+    <div class="container mx-auto px-4">
+      <h1 class="text-4xl text-center my-8">Movies App</h1>
+
+      <!-- Signup/Login Form
+      <div id="auth" class="mb-8">
+        <h2 class="text-2xl mb-4">Login / Signup</h2>
+        <input
+          id="username"
+          type="text"
+          placeholder="Username"
+          class="border rounded w-full py-2 px-3 mb-2"
+        />
+        <input
+          id="password"
+          type="password"
+          placeholder="Password"
+          class="border rounded w-full py-2 px-3 mb-2"
+        />
+        <button id="loginBtn" class="bg-blue-500 text-white rounded py-2 px-4">
+          Login
+        </button>
+        <button
+          id="signupBtn"
+          class="bg-green-500 text-white rounded py-2 px-4 mt-2"
+        >
+          Signup
+        </button>
+      </div> -->
+
+      <!-- Search Bar -->
+      <input
+        id="searchQuery"
+        type="text"
+        class="border rounded w-full py-2 px-3 mb-4"
+        placeholder="Search for movies..."
+      />
+      <button id="searchBtn" class="bg-blue-500 text-white rounded py-2 px-4">
+        Search
+      </button>
+
+      <!-- Movie Results -->
+      <div
+        id="results"
+        class="mt-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4"
+      ></div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

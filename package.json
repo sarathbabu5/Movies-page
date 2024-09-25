@@ -1,0 +1,16 @@
+{
+  "name": "movies",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "watch": "tailwindcss -i ./input.css -o ./output.css --watch",
+    "build": "tailwindcss -i ./input.css -o ./output.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "tailwindcss": "^3.4.13"
+  }
+}
